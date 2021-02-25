@@ -1,0 +1,18 @@
+-   id: swift-format
+    name: 'swift format'
+    entry: run-swift-format.sh
+    files: '\.swift$'
+    language: 'script'
+    description: "Format swift files. Runs `swiftformat`, requires swift and swiftformat"
+-   id: swift-lint-autocorrect
+    name: 'swift lint'
+    entry: run-swift-lint-autocorrect.sh
+    files: '\.swift$'
+    language: 'script'
+    description: "Lint swift files. Runs `swiftlint autocorrect`, requires swift and swiftlint"
+-   id: swift-lint
+    name: 'swift lint'
+    entry: run-swift-lint.sh
+    files: '\.swift$'
+    language: 'script'
+    description: "Lint swift files. Runs `swiftlint --strict`, requires swift and swiftlint"

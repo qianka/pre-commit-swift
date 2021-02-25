@@ -6,7 +6,7 @@
     description: "Format swift files. Runs `swiftformat`, requires swift and swiftformat"
 -   id: swift-lint-autocorrect
     name: 'swift lint'
-    entry: run-swift-lint-autocorrect.sh
+    entry: run-swift-lint—autocorrect.sh
     files: '\.swift$'
     language: 'script'
     description: "Lint swift files. Runs `swiftlint autocorrect`, requires swift and swiftlint"
